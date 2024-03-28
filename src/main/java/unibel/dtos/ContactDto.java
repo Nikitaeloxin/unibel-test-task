@@ -13,6 +13,7 @@ import unibel.models.ContactType;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ContactDto {
+	Long contactId;
 	ContactType contactType;
 	String contactValue;
 }

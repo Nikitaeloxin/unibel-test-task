@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ClientDto {
+	Long clientId;
 	String name;
 	List<ContactDto> contacts;
 }
